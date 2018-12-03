@@ -105,5 +105,5 @@ def lambda_handler(event, context):
     else:
         return {
             'statusCode': 200,
-            'bosy': 'FTPサーバへのアップロードが正常に完了しませんでした。'
+            'body': 'FTPサーバへのアップロードが正常に完了しませんでした。'
         }
